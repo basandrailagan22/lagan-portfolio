@@ -1,0 +1,106 @@
+
+body {
+    background-color: #FFF5F8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #49313D;
+}
+
+/* Header */
+header {
+    background-color: #F8C8DC;
+    color: #70264B;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+
+header span {
+    color: #E83E8C;
+}
+
+header p {
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    padding: 18px;
+    border-bottom: 1px solid #F3D5E1;
+}
+
+nav a {
+    color: #A83268;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #EC4899;
+}
+
+/* Introduction */
+.intro {
+    background-color: white;
+    margin: 5px auto;
+    padding: 5px;
+    width: 70%;
+    border-radius: 18px;
+    border: 1px solid #F5D6E2;
+}
+
+.intro h2:first-child {
+    color: #E83E8C;
+    font-size: 80px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #B83270;
+}
+
+.intro span {
+    color: #E83E8C;
+}
+
+/* All Sections */
+
+section {
+    max-width: 700px;
+    padding: 5px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid pink;
+     min-height: 0;
+     margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Paragraphs */
+p {
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #70264B;
+    color: white;
+    padding: 15px;
+}
+
+/* Smooth Link Hover */
+nav a:hover {
+    text-decoration: underline;
+}
